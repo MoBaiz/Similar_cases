@@ -1,0 +1,3 @@
+def Normalization(x):
+    return [(float(i)-min(x))/float(max(x)-min(x)) for i in x]
+def 
